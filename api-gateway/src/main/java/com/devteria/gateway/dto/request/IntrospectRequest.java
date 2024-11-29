@@ -1,15 +1,15 @@
 package com.devteria.gateway.dto.request;
 
-<<<<<<< Updated upstream
+//<<<<<<< Updated upstream
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-=======
+//=======
 
 import lombok.*;
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 import lombok.experimental.FieldDefaults;
 
 @Data

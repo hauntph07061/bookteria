@@ -1,10 +1,7 @@
 package com.devteria.profile.service;
 
-<<<<<<< Updated upstream
-=======
 import java.util.List;
 
->>>>>>> Stashed changes
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 

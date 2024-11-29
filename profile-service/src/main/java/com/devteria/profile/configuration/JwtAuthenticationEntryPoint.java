@@ -1,29 +1,17 @@
 package com.devteria.profile.configuration;
 
-<<<<<<< Updated upstream
-import com.devteria.profile.dto.ApiResponse;
-import com.devteria.profile.exception.ErrorCode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-=======
 import java.io.IOException;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
->>>>>>> Stashed changes
 import org.springframework.http.MediaType;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 
-<<<<<<< Updated upstream
-import java.io.IOException;
-=======
-import com.devteria.profile.dto.request.ApiResponse;
+import com.devteria.profile.dto.ApiResponse;
 import com.devteria.profile.exception.ErrorCode;
 import com.fasterxml.jackson.databind.ObjectMapper;
->>>>>>> Stashed changes
 
 public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
     @Override

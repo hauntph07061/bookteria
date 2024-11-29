@@ -1,15 +1,12 @@
 package com.devteria.profile.controller;
 
-<<<<<<< Updated upstream
-import com.devteria.profile.dto.ApiResponse;
-=======
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
->>>>>>> Stashed changes
+import com.devteria.profile.dto.ApiResponse;
 import com.devteria.profile.dto.response.UserProfileResponse;
 import com.devteria.profile.service.UserProfileService;
 

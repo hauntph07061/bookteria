@@ -126,7 +126,6 @@ export default function Login() {
                 variant="contained"
                 color="primary"
                 size="large"
-                onClick={handleSubmit}
                 fullWidth
                 sx={{
                   mt: "15px",

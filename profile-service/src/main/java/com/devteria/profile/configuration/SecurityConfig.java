@@ -7,11 +7,6 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
-<<<<<<< Updated upstream
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
-=======
->>>>>>> Stashed changes
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
 import org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter;
 import org.springframework.security.web.SecurityFilterChain;
@@ -21,13 +16,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableMethodSecurity
 public class SecurityConfig {
 
-<<<<<<< Updated upstream
-    private static final String[] PUBLIC_ENDPOINTS = {
-        "/internal/users"
-    };
-=======
     private static final String[] PUBLIC_ENDPOINTS = {"/internal/users"};
->>>>>>> Stashed changes
 
     private final CustomJwtDecoder customJwtDecoder;
 
