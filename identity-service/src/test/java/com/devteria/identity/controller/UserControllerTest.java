@@ -55,14 +55,13 @@ public class UserControllerTest {
         userResponse = UserResponse.builder()
                 .id("cf0600f538b3")
                 .username("john")
-                .firstName("John")
-                .lastName("Doe")
-                .dob(dob)
+                // .firstName("John")
+                // .lastName("Doe")
+                // .dob(dob)
                 .build();
     }
 
     @Test
-    //
     void createUser_validRequest_success() throws Exception {
         // GIVEN
         ObjectMapper objectMapper = new ObjectMapper();
@@ -81,7 +80,6 @@ public class UserControllerTest {
     }
 
     @Test
-    //
     void createUser_usernameInvalid_fail() throws Exception {
         // GIVEN
         request.setUsername("joh");

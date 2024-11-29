@@ -10,3 +10,6 @@ spring:
     authentication:
       username: neo4j
       password: 12345678
+
+jwt:
+  signerKey: "1TjXchw5FloESb63Kc+DFhTARvpWL4jUGCwfGWxuG5SIf/1y/LgJxHnMqaF6A/ij"

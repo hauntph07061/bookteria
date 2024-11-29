@@ -1,16 +1,30 @@
 package com.devteria.profile.exception;
 
+<<<<<<< Updated upstream
 import com.devteria.profile.dto.ApiResponse;
 import jakarta.validation.ConstraintViolation;
 import lombok.extern.slf4j.Slf4j;
+=======
+import java.util.Map;
+import java.util.Objects;
+
+import jakarta.validation.ConstraintViolation;
+
+>>>>>>> Stashed changes
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+<<<<<<< Updated upstream
 import java.util.Map;
 import java.util.Objects;
+=======
+import com.devteria.profile.dto.request.ApiResponse;
+
+import lombok.extern.slf4j.Slf4j;
+>>>>>>> Stashed changes
 
 @ControllerAdvice
 @Slf4j
@@ -21,7 +35,11 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = Exception.class)
     ResponseEntity<ApiResponse> handlingRuntimeException(RuntimeException exception) {
         log.error("Exception: ", exception);
+<<<<<<< Updated upstream
         ApiResponse apiResponse = new ApiResponse();
+=======
+        ApiResponse apiResponse = new ApiResponse<>();
+>>>>>>> Stashed changes
 
         apiResponse.setCode(ErrorCode.UNCATEGORIZED_EXCEPTION.getCode());
         apiResponse.setMessage(ErrorCode.UNCATEGORIZED_EXCEPTION.getMessage());
